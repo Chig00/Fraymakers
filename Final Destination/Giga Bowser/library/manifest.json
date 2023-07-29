@@ -1,0 +1,14 @@
+{
+    "resourceId": "gigabowsersong",
+    "content": [
+        {
+            "id": "bgm_gigabowsersong",
+            "title": "Giga Bowser",
+            "artist": "Nintendo",
+            "description": "The theme of the Giga Bowser boss battle from Super Smash Bros. Melee.",
+            "type": "music",
+            "audioId": "bgm_gigabowsersong",
+            "loopPoint": 0
+        }
+    ]
+}

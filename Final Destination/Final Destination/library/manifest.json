@@ -1,0 +1,41 @@
+{
+    "resourceId": "meleefdstage",
+    "content": [
+        {
+            "id": "stagetemplate",
+            "name": "Final Destination",
+            "description": "The Final Destination stage from Super Smash Bros. Melee.",
+            "type": "stage",
+            "objectStatsId": "stagetemplateStageStats",
+            "scriptId": "stagetemplateScript",
+            "music": [
+                {
+                    "namespace": "local",
+                    "resourceId": "ssb64creditssong",
+                    "contentId": "bgm_ssb64creditssong"
+                },
+                {
+                    "namespace": "local",
+                    "resourceId": "meleefdsong",
+                    "contentId": "bgm_meleefdsong"
+                },
+                {
+                    "namespace": "local",
+                    "resourceId": "gigabowsersong",
+                    "contentId": "bgm_gigabowsersong"
+                }
+            ],
+            "metadata": {
+                "ui":{
+                    "entityId":"menu",
+                    "render": {
+                        "animation":"full"
+                    },
+                    "css": {
+                        "animation":"css"
+                    }
+                }
+            }
+        }
+    ]
+}

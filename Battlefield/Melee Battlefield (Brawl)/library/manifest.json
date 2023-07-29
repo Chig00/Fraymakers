@@ -1,0 +1,14 @@
+{
+  "resourceId": "meleebfbrawlsong",
+    "content": [
+        {
+            "id": "bgm_meleebfbrawlsong",
+            "title": "Melee Battlefield (Brawl)",
+            "artist": "Nintendo",
+            "description": "A Super Smash Bros. Brawl remix of the Battlefield stage from Super Smash Bros. Melee.",
+            "type": "music",
+            "audioId": "bgm_meleebfbrawlsong",
+            "loopPoint": 0
+        }
+    ]
+}

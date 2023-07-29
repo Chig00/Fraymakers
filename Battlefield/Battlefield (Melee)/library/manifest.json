@@ -1,0 +1,14 @@
+{
+  "resourceId": "meleebfsong",
+    "content": [
+        {
+            "id": "bgm_meleebfsong",
+            "title": "Battlefield (Melee)",
+            "artist": "Nintendo",
+            "description": "The theme of the Battlefield stage from Super Smash Bros. Melee.",
+            "type": "music",
+            "audioId": "bgm_meleebfsong",
+            "loopPoint": 0
+        }
+    ]
+}

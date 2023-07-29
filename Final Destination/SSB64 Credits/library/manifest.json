@@ -1,0 +1,14 @@
+{
+    "resourceId": "ssb64creditssong",
+    "content": [
+        {
+            "id": "bgm_ssb64creditssong",
+            "title": "SSB64 Credits (Brawl)",
+            "artist": "Nintendo",
+            "description": "A Super Smash Bros. Brawl remix of the original Super Smash Bros. Credits.",
+            "type": "music",
+            "audioId": "bgm_ssb64creditssong",
+            "loopPoint": 0
+        }
+    ]
+}

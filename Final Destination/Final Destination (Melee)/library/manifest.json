@@ -1,0 +1,14 @@
+{
+  "resourceId": "meleefdsong",
+    "content": [
+        {
+            "id": "bgm_meleefdsong",
+            "title": "Final Destination (Melee)",
+            "artist": "Nintendo",
+            "description": "The theme of the Final Destination stage from Super Smash Bros. Melee.",
+            "type": "music",
+            "audioId": "bgm_meleefdsong",
+            "loopPoint": 0
+        }
+    ]
+}

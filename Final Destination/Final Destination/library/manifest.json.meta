@@ -1,0 +1,13 @@
+{
+  "export": true,
+  "guid": "a237af90-5490-4fdc-9437-bd22254fa558",
+  "id": "manifest",
+  "language": "json",
+  "pluginMetadata": {
+  },
+  "plugins": [
+  ],
+  "tags": [
+  ],
+  "version": 1
+}
