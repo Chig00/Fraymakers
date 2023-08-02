@@ -1,0 +1,18 @@
+{
+  "export": true,
+  "guid": "089a6202-e2e7-4846-bf90-46df772f78e3",
+  "id": "assisttemplateScript",
+  "language": "hscript",
+  "pluginMetadata": {
+    "com.fraymakers.FraymakersMetadata": {
+      "objectType": "ASSIST",
+      "version": "0.2.0"
+    }
+  },
+  "plugins": [
+    "com.fraymakers.FraymakersMetadata"
+  ],
+  "tags": [
+  ],
+  "version": 1
+}
