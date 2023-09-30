@@ -1,0 +1,57 @@
+{
+    "resourceId": "meleefox",
+    "content": [
+        {
+            "id": "charactertemplate",
+            "name": "Fox",
+            "description": "The year is 20XX...",
+            "type": "character",
+            "objectStatsId": "charactertemplateCharacterStats",
+            "animationStatsId": "charactertemplateAnimationStats",
+            "hitboxStatsId": "charactertemplateHitboxStats",
+            "scriptId": "charactertemplateScript",
+            "costumesId": "charactertemplateCostumes",
+            "aiId": "charactertemplateAi",
+            "metadata": {
+                "ui":{
+                    "entityId": "menu",
+                    "render":{
+                        "animation": "full",
+                        "animation_icon": "icon",
+                        "animation_icon_no_palette": "icon_no_palette",
+                        "x_offset": 0,
+                        "y_offset": 80
+                    },
+                    "hud":{
+                        "animation": "hud", 
+                        "animation_happy": "hud_happy",
+                        "animation_sad": "hud_sad",
+                        "animation_angry": "hud_angry",
+                        "animation_hurt": "hud_hurt"
+                    },
+                    "css":{
+                        "animation": "css",
+                        "info": {
+                            "game": "Star Fox (SSBM)",
+                            "description": "The year is 20XX..."
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": "charactertemplateAi",
+            "type": "characterAi",
+            "scriptId": "charactertemplateAiScript"
+        },
+        {
+            "id": "characterTemplateNspecProjectile",
+            "type": "projectile",
+            "objectStatsId": "charactertemplateNspecProjectileStats",
+            "animationStatsId": "charactertemplateNspecProjectileAnimationStats",
+            "hitboxStatsId": "charactertemplateNspecProjectileHitboxStats",
+            "scriptId": "charactertemplateNspecProjectileScript",
+            "costumesId": "charactertemplateCostumes"
+        }
+    ]
+}
