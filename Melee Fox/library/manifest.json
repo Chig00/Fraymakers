@@ -3,7 +3,7 @@
     "content": [
         {
             "id": "charactertemplate",
-            "name": "Fox",
+            "name": "20XX Fox",
             "description": "The year is 20XX...",
             "type": "character",
             "objectStatsId": "charactertemplateCharacterStats",

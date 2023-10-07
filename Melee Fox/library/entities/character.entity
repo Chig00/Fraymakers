@@ -13615,7 +13615,7 @@
     },
     {
       "$id": "aae93c4c-5690-413c-81d4-59d0fc6d0af1",
-      "code": "//updates the hitbox stats for hitbox0 (indicated by the 0 at the start of the parenthesis)\r\nself.updateHitboxStats(0, { damage: 13, baseKnockback: 20, knockbackGrowth: 100, angle: 85 }); // Original had too much knockback.\r\nself.reactivateHitboxes();",
+      "code": "//updates the hitbox stats for hitbox0 (indicated by the 0 at the start of the parenthesis)\r\nself.updateHitboxStats(0, { damage: 13, baseKnockback: 0, knockbackGrowth: 100, angle: 85 });\r\nself.reactivateHitboxes();",
       "length": 1,
       "pluginMetadata": {
       },
@@ -14937,7 +14937,7 @@
     },
     {
       "$id": "c804d0d6-b946-4e31-be65-7778630d0248",
-      "code": "//gives the character a speed boost forward and up (to set backward speed put a negative number in the setXSpeed parentheses, and to go up set a positive number in the setYSpeed parentheses)\r\nself.setYSpeed(-30);",
+      "code": "//gives the character a speed boost forward and up (to set backward speed put a negative number in the setXSpeed parentheses, and to go up set a positive number in the setYSpeed parentheses)\r\nself.setYSpeed(-25);",
       "length": 5,
       "pluginMetadata": {
       },
@@ -14953,7 +14953,7 @@
     },
     {
       "$id": "45260f99-d883-462d-b4c3-4cd057d100fd",
-      "code": "//gives the character a speed boost forward and up (to set backward speed put a negative number in the setXSpeed parentheses, and to go up set a positive number in the setYSpeed parentheses)\r\nself.setXSpeed(30);\r\nself.setYSpeed(0);",
+      "code": "//gives the character a speed boost forward and up (to set backward speed put a negative number in the setXSpeed parentheses, and to go up set a positive number in the setYSpeed parentheses)\r\nself.setXSpeed(40);\r\nself.setYSpeed(0);",
       "length": 5,
       "pluginMetadata": {
       },
@@ -35074,11 +35074,11 @@
       "pluginMetadata": {
       },
       "rotation": 0,
-      "scaleX": 43,
-      "scaleY": 86,
+      "scaleX": 31,
+      "scaleY": 139,
       "type": "COLLISION_BOX",
-      "x": 26,
-      "y": -64
+      "x": 37,
+      "y": -117
     },
     {
       "$id": "49d529ea-d9cb-4c97-bbc5-3a85b3a02c52",
@@ -35164,26 +35164,26 @@
       "pluginMetadata": {
       },
       "rotation": 0,
-      "scaleX": 68,
-      "scaleY": 75,
+      "scaleX": 57,
+      "scaleY": 56,
       "type": "COLLISION_BOX",
-      "x": -83,
-      "y": -98
+      "x": -80,
+      "y": -91
     },
     {
       "$id": "34add02a-b048-4306-821d-bc43e87d3549",
       "alpha": null,
       "color": null,
-      "pivotX": 34,
+      "pivotX": 26,
       "pivotY": 0,
       "pluginMetadata": {
       },
       "rotation": 0,
-      "scaleX": 68,
-      "scaleY": 70,
+      "scaleX": 53,
+      "scaleY": 59,
       "type": "COLLISION_BOX",
-      "x": -32,
-      "y": -132
+      "x": -23,
+      "y": -127
     },
     {
       "$id": "b3c47a84-6bdc-4b7d-8da1-46d3fde04cf5",
@@ -35774,15 +35774,15 @@
       "$id": "4c62f108-ddc9-4086-9e05-fbab44644369",
       "alpha": null,
       "color": null,
-      "pivotX": 65,
+      "pivotX": 39,
       "pivotY": 24,
       "pluginMetadata": {
       },
       "rotation": 0,
-      "scaleX": 132,
+      "scaleX": 79,
       "scaleY": 48,
       "type": "COLLISION_BOX",
-      "x": -108,
+      "x": -82,
       "y": -56
     },
     {

@@ -60,7 +60,7 @@
 		hitbox0: {
 			damage: 12,
 			angle: 110,
-			baseKnockback: 10,
+			baseKnockback: 0,
 			knockbackGrowth: 100,
 			hitstop: -1,
 			selfHitstop: -1,
@@ -82,20 +82,20 @@
 	//STRONG ATTACKS
 	strong_forward_attack: {
 		hitbox0: {
-			damage: 17,
+			damage: 15,
 			angle: SpecialAngle.DEFAULT,
-			baseKnockback: 20,
+			baseKnockback: 10,
 			knockbackGrowth: 100,
 			hitstop: -1,
 			selfHitstop: -1,
 			limb: AttackLimb.FOOT
 		}
-	}, // Falco.
+	},
 	strong_up_attack: {
 		hitbox0: {
 			damage: 18,
 			angle: 80,
-			baseKnockback: 15,
+			baseKnockback: 0,
 			knockbackGrowth: 100,
 			hitstop: -1,
 			selfHitstop: -1,
@@ -104,14 +104,14 @@
 	},
 	strong_down_attack: {
 		hitbox0: {
-			damage: 16,
+			damage: 15,
 			angle: 25,
 			baseKnockback: 20,
-			knockbackGrowth: 70,
+			knockbackGrowth: 65,
 			hitstop: -1,
 			selfHitstop: -1,
 			limb: AttackLimb.FOOT
-		} // Falco.
+		}
 	},
 
 	//AERIAL ATTACKS
@@ -203,7 +203,7 @@
 	}, // Falco Shine.
 	special_side: {
 		hitbox0: {
-			damage: 3,
+			damage: 1,
 			angle: 270,
 			baseKnockback: 50,
 			knockbackGrowth: 0,
@@ -213,7 +213,7 @@
 	},
 	special_side_air: {
 		hitbox0: {
-			damage: 3,
+			damage: 1,
 			angle: 270,
 			baseKnockback: 50,
 			knockbackGrowth: 0,
@@ -223,7 +223,7 @@
 	},
 	special_up: {
 		hitbox0: {
-			damage: 7,
+			damage: 3,
 			angle: 90,
 			baseKnockback: 75,
 			knockbackGrowth: 0,
@@ -233,7 +233,7 @@
 	}, 
 	special_up_air: {
 		hitbox0: {
-			damage: 7,
+			damage: 3,
 			angle: 90,
 			baseKnockback: 75,
 			knockbackGrowth: 0,

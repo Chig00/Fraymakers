@@ -6,7 +6,7 @@
 	// Note: Currently scale adjustments invalidate SpecialAngle AUTOLINK_STRONGER and AUTOLINK_STRONGEST for values other than 1.0. 
 	baseScaleX: 1.0,
 	baseScaleY: 1.0, 
-	weight: 75,
+	weight: 60,
 	gravity: 1.4,
 	shortHopSpeed: 12,
 	jumpSpeed: 20,
@@ -72,17 +72,17 @@
 
 	//SHIELD STATS
 	//How many pixels behind 0,0 you'd like to extend shield coverage.
-	shieldCrossupThreshold: 16,	
+	shieldCrossupThreshold: 0,	
 	//This dictates the *visual* size of the shield, which doesn't correlate to the actual shieldable area. HIGHLY recommend adjusting the "front" and "back" number sets together (for example, subtracting/adding to both "shieldBackWidth" and "shieldFrontWidth" by the same amount at the same time), it's currently really easy to lose track of the sizing and positioning if you aren't careful. 
 	shieldFrontNineSliceContent: "global::vfx.vfx_shield_front",
 	shieldFrontXOffset: 10.5,
 	shieldFrontYOffset: 4,
-	shieldFrontWidth: 53,
+	shieldFrontWidth: 37,
 	shieldFrontHeight: 93,
 	shieldBackNineSliceContent: "global::vfx.vfx_shield_back",
 	shieldBackXOffset: 12.5,
 	shieldBackYOffset: 4,
-	shieldBackWidth: 49,
+	shieldBackWidth: 33,
 	shieldBackHeight: 93,
 
 	//VOICE STATS
